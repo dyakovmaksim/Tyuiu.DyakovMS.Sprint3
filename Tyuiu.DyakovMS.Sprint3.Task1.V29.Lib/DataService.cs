@@ -10,7 +10,7 @@ namespace Tyuiu.DyakovMS.Sprint3.Task1.V29.Lib
 
             while (startValue <= stopValue)
             {
-                MultiplySeries = MultiplySeries * (Math.Pow(startValue, 2) * value + 2);
+                MultiplySeries = MultiplySeries * (Math.Pow(value, 2) * startValue + 2);
                 startValue++;
             }
             return Math.Round(MultiplySeries, 3);
