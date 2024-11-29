@@ -3,19 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.DyakovMS.Sprint3.Task0.V22.Lib", "Tyuiu.DyakovMS.Sprint3.Task0.V22.Lib\Tyuiu.DyakovMS.Sprint3.Task0.V22.Lib.csproj", "{E459C75A-C880-4899-9D49-9D20E2C8CA21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.DyakovMS.Sprint3.Task0.V22.Lib", "Tyuiu.DyakovMS.Sprint3.Task0.V22.Lib\Tyuiu.DyakovMS.Sprint3.Task0.V22.Lib.csproj", "{E459C75A-C880-4899-9D49-9D20E2C8CA21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.DyakovMS.Sprint3.Task0.V22", "Tyuiu.DyakovMS.Sprint3.Task0.V22\Tyuiu.DyakovMS.Sprint3.Task0.V22.csproj", "{AA89E614-A79D-4F80-BF16-49363D7F4B1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.DyakovMS.Sprint3.Task0.V22", "Tyuiu.DyakovMS.Sprint3.Task0.V22\Tyuiu.DyakovMS.Sprint3.Task0.V22.csproj", "{AA89E614-A79D-4F80-BF16-49363D7F4B1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.DyakovMS.Sprint3.Task0.V22.Test", "Tyuiu.DyakovMS.Sprint3.Task0.V22.Test\Tyuiu.DyakovMS.Sprint3.Task0.V22.Test.csproj", "{90E16D8B-93E0-4FF4-A7B5-F5CD9EC8EB64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.DyakovMS.Sprint3.Task0.V22.Test", "Tyuiu.DyakovMS.Sprint3.Task0.V22.Test\Tyuiu.DyakovMS.Sprint3.Task0.V22.Test.csproj", "{90E16D8B-93E0-4FF4-A7B5-F5CD9EC8EB64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.DyakovMS.Sprint3.Task1.V29.Lib", "Tyuiu.DyakovMS.Sprint3.Task1.V29.Lib\Tyuiu.DyakovMS.Sprint3.Task1.V29.Lib.csproj", "{6390630D-CE70-49C8-B37A-551A281BB02D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.DyakovMS.Sprint3.Task1.V29", "Tyuiu.DyakovMS.Sprint3.Task1.V29\Tyuiu.DyakovMS.Sprint3.Task1.V29.csproj", "{CBF96216-0165-4F1E-A7F8-F7ACCFB2A089}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.DyakovMS.Sprint3.Task1.V29.Test", "Tyuiu.DyakovMS.Sprint3.Task1.V29.Test\Tyuiu.DyakovMS.Sprint3.Task1.V29.Test.csproj", "{622FB6B1-D5DE-4E7B-B5A9-D87151320D21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{FF0F1CCA-A03B-49CB-BB10-2F626D94BDD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{FB367212-B78C-446A-B676-FB5ABFC8AA66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E459C75A-C880-4899-9D49-9D20E2C8CA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +37,31 @@ Global
 		{90E16D8B-93E0-4FF4-A7B5-F5CD9EC8EB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90E16D8B-93E0-4FF4-A7B5-F5CD9EC8EB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90E16D8B-93E0-4FF4-A7B5-F5CD9EC8EB64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6390630D-CE70-49C8-B37A-551A281BB02D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6390630D-CE70-49C8-B37A-551A281BB02D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6390630D-CE70-49C8-B37A-551A281BB02D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6390630D-CE70-49C8-B37A-551A281BB02D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF96216-0165-4F1E-A7F8-F7ACCFB2A089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF96216-0165-4F1E-A7F8-F7ACCFB2A089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF96216-0165-4F1E-A7F8-F7ACCFB2A089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF96216-0165-4F1E-A7F8-F7ACCFB2A089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{622FB6B1-D5DE-4E7B-B5A9-D87151320D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{622FB6B1-D5DE-4E7B-B5A9-D87151320D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{622FB6B1-D5DE-4E7B-B5A9-D87151320D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{622FB6B1-D5DE-4E7B-B5A9-D87151320D21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E459C75A-C880-4899-9D49-9D20E2C8CA21} = {FF0F1CCA-A03B-49CB-BB10-2F626D94BDD1}
+		{AA89E614-A79D-4F80-BF16-49363D7F4B1A} = {FF0F1CCA-A03B-49CB-BB10-2F626D94BDD1}
+		{90E16D8B-93E0-4FF4-A7B5-F5CD9EC8EB64} = {FF0F1CCA-A03B-49CB-BB10-2F626D94BDD1}
+		{6390630D-CE70-49C8-B37A-551A281BB02D} = {FB367212-B78C-446A-B676-FB5ABFC8AA66}
+		{CBF96216-0165-4F1E-A7F8-F7ACCFB2A089} = {FB367212-B78C-446A-B676-FB5ABFC8AA66}
+		{622FB6B1-D5DE-4E7B-B5A9-D87151320D21} = {FB367212-B78C-446A-B676-FB5ABFC8AA66}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {848A3205-A8AB-4123-BF5F-5F004A26D347}
 	EndGlobalSection
 EndGlobal
