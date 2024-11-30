@@ -1,5 +1,5 @@
-﻿using Tyuiu.DyakovMS.Sprint3.Task2.V14.Lib;
-namespace Tyuiu.DyakovMS.Sprint3.Task2.V14
+﻿using Tyuiu.DyakovMS.Sprint3.Task3.V24.Lib;
+namespace Tyuiu.DyakovMS.Sprint3.Task3.V24
 {
     class Program
     {
@@ -9,26 +9,22 @@ namespace Tyuiu.DyakovMS.Sprint3.Task2.V14
             //Длинна строки 75 символов
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
-            Console.WriteLine("* Оператор цикла do-while                                                 *");
-            Console.WriteLine("* Задание #2                                                              *");
-            Console.WriteLine("* Вариант #14                                                             *");
+            Console.WriteLine("* Оператор цикла foreach                                                  *");
+            Console.WriteLine("* Задание #3                                                              *");
+            Console.WriteLine("* Вариант #24                                                             *");
             Console.WriteLine("* Выполнил: Дьяков Максим Сергеевич | ИИПБ-24-1                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *"); 
             
-            Console.WriteLine("*Написать программу используя цикл do...while, которая вычисляет произведе*");
-            Console.WriteLine("*ение ряда по формуле, при x = 5                                          *");
+            Console.WriteLine("*Используя цикл foreach заменить буквы g  на * в строке: gft hggt ntg     *");
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Переменная x = ");
-            int value = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Старт шага = ");
-            int startValue = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Конец шага = ");
-            int stopValue = Convert.ToInt32(Console.ReadLine());
+            string value = "gft hggt ntg";
+            char replaceable = 'g';
+            char replacement = '*';
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
@@ -36,8 +32,8 @@ namespace Tyuiu.DyakovMS.Sprint3.Task2.V14
 
             DataService ds = new DataService();
 
-            var result = ds.GetMultiplySeries(value, startValue, stopValue);
-            Console.WriteLine("Произведение ряда = " + result);
+            var result = ds.ReplaceCharInString(value, replaceable, replacement);
+            Console.WriteLine(result);
             Console.ReadKey();
         }
     }
