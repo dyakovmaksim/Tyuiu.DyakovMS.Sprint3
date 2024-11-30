@@ -38,8 +38,7 @@ namespace Tyuiu.DyakovMS.Sprint3.Task5.V13
 
             DataService ds = new DataService();
 
-            var result = ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2);
-            Console.WriteLine(result);
+            Console.WriteLine("Сумма ряда = " + ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2));
             Console.ReadKey();
         }
     }

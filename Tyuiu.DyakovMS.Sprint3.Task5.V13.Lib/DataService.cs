@@ -6,16 +6,16 @@ namespace Tyuiu.DyakovMS.Sprint3.Task5.V13.Lib
     {
         public double GetSumSumSeries(int x, int startValue1, int startValue2, int stopValue1, int stopValue2)
         {
-            double SumSeries = 0;
+            double sumSeries = 0;
 
-            for (int j = startValue1; j <= stopValue1; j++) 
+            for (int i = startValue1; i <= stopValue1; i++) 
             {
                 for (int k = startValue2; k <= stopValue2; k++)
                 {
-                    SumSeries = SumSeries + (Math.Cos(x) + k / 2);
+                    sumSeries = sumSeries + (Math.Cos(x) + (k / 2));
                 }
             }
-            return Math.Round(SumSeries, 3);
+            return Math.Round(sumSeries, 3);
 
         }
     }
