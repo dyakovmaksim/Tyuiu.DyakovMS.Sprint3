@@ -24,11 +24,11 @@ namespace Tyuiu.DyakovMS.Sprint3.Task2.V14
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine("Переменная x = ");
-            int value = 5;
+            int value = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Старт шага = ");
-            int startValue = 1;
+            int startValue = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Конец шага = ");
-            int stopValue = 6;
+            int stopValue = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
