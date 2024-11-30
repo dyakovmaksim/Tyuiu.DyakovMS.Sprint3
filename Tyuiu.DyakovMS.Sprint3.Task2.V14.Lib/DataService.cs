@@ -9,7 +9,7 @@ namespace Tyuiu.DyakovMS.Sprint3.Task2.V14.Lib
             double MultiplySeries = 1;
             do
             {
-                MultiplySeries = MultiplySeries * (Math.Pow(value/startValue, 3));
+                MultiplySeries = MultiplySeries * (Math.Pow((double) value/startValue, 3));
                 startValue++;
             } while (startValue <= stopValue);
             return Math.Round(MultiplySeries, 3);
