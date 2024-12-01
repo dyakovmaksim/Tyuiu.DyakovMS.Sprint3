@@ -2,8 +2,10 @@
 
 namespace Tyuiu.DyakovMS.Sprint3.Task6.V18.Test
 {
+    [TestClass]
     public class DataServiceTest
     {
+        [TestMethod]
         public void TestGetSumTheDivisors()
         {
             DataService ds = new DataService();
