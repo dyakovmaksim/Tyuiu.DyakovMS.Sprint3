@@ -44,7 +44,7 @@ namespace Tyuiu.DyakovMS.Sprint3.Task7.V1
             Console.WriteLine("+---------------------+");
             for (int i = 0; i < len; i++) 
             {
-                Console.WriteLine("|{0,5:d}  |  {1, 5:f2}|", startValue, valueArray[i]);
+                Console.WriteLine("|{0,5:d}  |  {1, 8:f2}   |", startValue, valueArray[i]);
                 startValue++;
             }
             Console.WriteLine("+---------------------+");
